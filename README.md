@@ -94,25 +94,25 @@ The SDK enforces the codified Syndicate Swarm Doctrine defined in `SOUL.md`:
 Professional Optics: External telemetry shows only clean performance metrics.
 
 ## ✨ Key Features
-- Fully async client (high-throughput ready)  
-- Built-in bidding heuristics aligned with SOUL.md  
-- Automatic JWT signing and heartbeat reporting  
-- Support for Machine Payments Protocol (MPP) via Stripe  
-- Docker Swarm templates for Pi5 cluster deployment  
+- Fully async client (high-throughput ready)
+- Built-in bidding heuristics aligned with SOUL.md
+- Automatic JWT signing and heartbeat reporting
+- Support for Machine Payments Protocol (MPP) via Stripe
+- Docker Swarm templates for Pi5 cluster deployment
 
 ## 🛡️ Security & Best Practices
 - **Never commit your `api_secret`.**
-- Rotate secrets regularly.  
-- Generate identities only via the official provisioning script.  
+- Rotate secrets regularly.
+- Generate identities only via the official provisioning script.
 - Report vulnerabilities through `SECURITY.md`.
 
 ## ⏭️ Next Steps
 - Generate your signed identity: `python scripts/generate_agent_identity.py`
 - Deploy to your Pi5 cluster using `deployment/cluster-stack.yml`
-- Run your first sniper and watch the Command Center light up.  
+- Run your first sniper and watch the Command Center light up.
 
 Status: **IDENTITY HARDENED. HEARTBEAT SYNCED.**
-Build fast. Bid harder. Scale the swarm.  
+Build fast. Bid harder. Scale the swarm.
 
-Creator: Eddy Woods  
+Creator: Eddy Woods
 Directive Overseer: Dr. NigHammer
