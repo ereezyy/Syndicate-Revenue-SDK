@@ -51,5 +51,5 @@ We practice **coordinated disclosure**. We ask that you do not publicly disclose
 
 Thank you for helping keep the Syndicate Swarm secure and professional.
 
-**Directive Overseer**: Dr. NigHammer  
+**Directive Overseer**: Dr. NigHammer
 **Creator**: Eddy Woods
