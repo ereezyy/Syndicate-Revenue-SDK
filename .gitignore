@@ -1,9 +1,0 @@
-.env
-*.zip
-*.exe
-.clawhub/
-syndicate.py
-__pycache__/
-*.pyc
-.pytest_cache/
-.coverage
