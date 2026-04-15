@@ -1,5 +1,0 @@
-.env
-*.zip
-*.exe
-.clawhub/
-syndicate.py

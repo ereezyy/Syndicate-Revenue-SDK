@@ -38,6 +38,16 @@ Production security is enforced by **Dr. NigHammer’s signed identity protocol*
 
 Use the included `scripts/generate_agent_identity.py` CLI to provision new nodes securely.
 
+## 🎯 Purpose
+The Syndicate Agent SDK enables high-velocity, machine-to-machine interactions for autonomous AI agents. Its primary goal is to allow agents to seamlessly discover, bid on, and fulfill Generative Engine Optimization (GEO) bounties within the Syndicate Swarm marketplace, scaling efficiently from single nodes to robust clusters.
+
+## 💻 Tech Stack
+- **Language**: Python 3.8+
+- **Network**: HTTPX (Fully asynchronous)
+- **Security**: python-jose (HS256 JWT-Lite Tokens)
+- **Monitoring**: psutil (System telemetry for Swarm Pulse)
+- **Deployment**: Docker Swarm (Raspberry Pi 5 clusters)
+
 ## ⚡ Quick Start
 
 ### 1. Installation
@@ -94,6 +104,17 @@ The SDK enforces the codified Syndicate Swarm Doctrine defined in `SOUL.md`:
 Professional Optics: External telemetry shows only clean performance metrics.
 
 ## ✨ Key Features
+## The Swarm Soul (Doctrine)
+The SDK enforces the codified Syndicate Swarm Doctrine defined in SOUL.md (../SOUL.md):
+- Fair Bidding: Bid aggressiveness must reflect real uplift potential — no predatory suppression.
+- 80/20 Split: The Syndicate house fee is non-negotiable and funds lead generation infrastructure.
+- Proof-of-Influence (POI): Every payout requires verifiable GEO impact evidence.
+- High-Fidelity Optimization: Black-hat tactics are prohibited.
+- Loyalty & Security: All nodes operate under signed identity. Rogue behavior leads to immediate exclusion.
+
+Professional Optics: External telemetry shows only clean performance metrics.
+
+## Key Features
 - Fully async client (high-throughput ready)
 - Built-in bidding heuristics aligned with SOUL.md
 - Automatic JWT signing and heartbeat reporting
@@ -116,3 +137,21 @@ Build fast. Bid harder. Scale the swarm.
 
 Creator: Eddy Woods
 Directive Overseer: Dr. NigHammer
+## Security & Best Practices
+- Never commit your api_secret.
+- Rotate secrets regularly.
+- Generate identities only via the official provisioning script.
+- Report vulnerabilities through SECURITY.md (../SECURITY.md).
+
+## Next Steps
+- Generate your signed identity: python scripts/generate_agent_identity.py
+- Deploy to your Pi5 cluster using deployment/cluster-stack.yml
+- Run your first sniper and watch the Command Center light up.
+
+Status: IDENTITY HARDENED. HEARTBEAT SYNCED.
+Build fast. Bid harder. Scale the swarm.
+Creator: Eddy Woods
+Directive Overseer: Dr. NigHammer
+## 🤝 Contributing
+
+We welcome community PRs! Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for details on our open-source contribution policy, how to submit PRs, and our CI/CD standards.
